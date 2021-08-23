@@ -8,7 +8,9 @@ body {
 section{
     background-color: white;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* BACKGROUND COLOR OF THE FIRST SECTION! */
 .hero {
     background: #0c0f2e;  /* fallback for old browsers */
