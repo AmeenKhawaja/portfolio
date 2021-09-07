@@ -9,3 +9,5 @@
   - Changed website colors to support dark theme extension
 - 1.2 
     - Added smooth scrolling when the "About Me", "Projects" and "Contact" button is clicked
+- 1.3 
+   - Can now view the "AK" logo on mobile, no longer shows nothing
