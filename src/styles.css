@@ -113,8 +113,9 @@ p {
 }
 
 .logo {
-    height: 90px;
-    margin: 30px;
+    height: 75px;
+    margin: 20px;
+    padding: 20px;
 }
 
 .social {
