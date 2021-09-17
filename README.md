@@ -18,3 +18,7 @@
    - Can now view the logo on mobile, no longer shows nothing
  - 1.4 
    - Updated "About Me" biography
+ - 1.5 
+   - Clicking social media links and all other links now open up the link in a new tab
+   - Changed the colour of the website to a dark blue gradient
+   - Cleaned up code formatting to become much more readable
