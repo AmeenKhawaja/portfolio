@@ -1,229 +1,232 @@
 body {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-
-section{
-    background-color: white;
+section {
+  background-color: white;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 /* BACKGROUND COLOR OF THE FIRST SECTION! */
 .hero {
-    /* background: #000b2e;   */
-    background: #141E30;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 100vh;
-    color: white;
-    font-size: 40px;
+  /* background: #000b2e;   */
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  color: white;
+  font-size: 40px;
 }
 
-footer{
-    height: 240px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 80px;
+footer {
+  height: 240px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px;
 }
 
-nav{
-    display:flex;
-    justify-content: space-between;
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-ul{
-    
-    display:flex;
-    list-style-type: none;
-    width: 500px;
-    justify-content: space-around;
-    font-size: 30px;
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
 }
 
-
-li{
-    /*width: 200px;*/
-    text-decoration: none;
+li {
+  /*width: 200px;*/
+  text-decoration: none;
 }
 
 /* THIS IS WHERE IT SAYS AMEEN KHAWAJA AND COMPUTER SCIENCE STUDENT */
 h1 {
-    
-    font-size: 90px;
-    margin: 0;
+  font-size: 90px;
+  margin: 0;
 }
 
 /* ABOUT ME TAG SIZE */
 h2 {
-    font-size: 60px; 
+  font-size: 60px;
 }
 
 p {
-    margin: 0;
-    font-size: 35px;
+  margin: 0;
+  font-size: 35px;
 }
 
 .subtext {
-    font-size: 15px;
-    font-weight: 300px;
+  font-size: 15px;
+  font-weight: 300px;
 }
 
-.hero-area{
-    /* background-color: #000b2e; */
-    /* background: #4B79A1;  
+.hero-area {
+  /* background-color: #000b2e; */
+  /* background: #4B79A1;  
     background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  
     background: linear-gradient(to right, #283E51, #4B79A1);  */
-    display: flex;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-text {
-    margin-left: 80px;
-    margin-bottom: 200px;
+  margin-left: 80px;
+  margin-bottom: 200px;
 }
 
 .button {
-    width: 150px;
-    height: 50px; 
-    border-radius: 20px;
-    background-color: coral;
-    text-align: center;
-    font-size: 45px;
-    font-weight: 300;
-    padding-top: 5px;
-    margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: coral;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
 }
 
 .button:hover {
-    background-color: #f35f2d;
+  background-color: #f35f2d;
 }
 
 .button:active {
-    background-color: A9A9A9;
-    color: #808080
+  background-color: A9A9A9;
+  color: #808080;
 }
 
 .socials {
-    padding-bottom: 200px;
+  padding-bottom: 200px;
 }
 
 .logo {
-    height: 75px;
-    margin: 20px;
-    padding: 20px;
+  height: 75px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .social {
-    margin: 40px
-}
-
-.sub-section{
-    background: #414345; 
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 80px;
-
-}
-
-.sub-section-alternative{
-    background: #414345;
-    color:white;
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    padding:40px; 
+  margin: 40px;
 }
 
 .sub-section {
-    display: flex;
-    justify-content: space-around;
-    padding: 80px
+  background: #414345;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-alternative {
+  background: #414345;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
 }
 
 .headshot {
-    width:100px;
+  width: 100px;
 }
-.headshot-container{
-    margin-top: 130px;
-    align-items: center;
+.headshot-container {
+  margin-top: 130px;
+  align-items: center;
 }
 
 .project-card {
-    width: 300px;
-    height: 500px;
-    border: 1px solid black;
-    box-shadow: 5px 5px 20px;
-    margin: 10px;
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 20px;
+  margin: 10px;
 }
 
-@media only screen and (max-width:1000px){
-    .project-container{
-        display:flex;
-        flex-wrap: wrap;
-    }
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .project-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .project-image {
-    width: 300px;
-    /* border-radius: 120px; */
+  width: 300px;
+  /* border-radius: 120px; */
 }
 
 hr {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* VIEW HERE BUTTON */
 .project-link {
-    text-decoration: none;
-    color: #ef744b
+  text-decoration: none;
+  color: #ef744b;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .hamburger {
-    display: none;
+  display: none;
 }
 
-.hamburger:focus{
-    outline: 0;
+.hamburger:focus {
+  outline: 0;
 }
 
 @media only screen and (max-width: 1000px) {
-    .hamburger {
-        display: block;
-        border: 0;
-        background-color: transparent;
-        color: white;
-        font-size: 30px;
-        margin: 20px;
-    }
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+  }
 
-    ul{
-        display: none;
-        background-color: (to top, #859398, #283048);
-    }
+  ul {
+    display: none;
+    background-color: (to top, #859398, #283048);
+  }
 
-    ul.show {
-        display: block;
-    }
-    
-    nav{
-        align-items: flex-start;
-    }
+  ul.show {
+    display: block;
+  }
+
+  nav {
+    align-items: flex-start;
+  }
 }
