@@ -13,14 +13,15 @@ html{
 }
 /* BACKGROUND COLOR OF THE FIRST SECTION! */
 .hero {
-    background: #000b2e;  
-    /* background: #4B79A1;  
-    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  
-    background: linear-gradient(to right, #283E51, #4B79A1);  */
+    /* background: #000b2e;   */
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100vh;
     color: white;
     font-size: 40px;
 }
+
 footer{
     height: 240px;
     background-color: black;
@@ -150,7 +151,6 @@ p {
     width:100px;
 }
 .headshot-container{
-    
     margin-top: 130px;
     align-items: center;
 }
