@@ -4,7 +4,7 @@
 
 # Design Choice
 - I personally enjoy looking at bland colours as it goes easy on my eyes
-- For my website, I decided to go with a more "minimalist" approach meaning I did not include too many bright gradient-colours, designs, photos, etc (personal preference)
+- For my website, I decided to go with a more "minimalist" approach meaning I did not include too many bright gradient-colours, designs, photos, etc (my personal preference)
 
 
 # Version
